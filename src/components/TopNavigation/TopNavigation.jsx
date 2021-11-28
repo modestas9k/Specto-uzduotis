@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './TopNavigation.css';
-import Logo from '../../assets/Logo.svg';
+import Logo from '../../assets/logo-white.svg';
 
 function TopNavigation() {
     return (
