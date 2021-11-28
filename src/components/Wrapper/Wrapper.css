@@ -1,0 +1,8 @@
+.wrapper {
+  margin: 30px 40px;
+}
+.wrapper__table {
+  background-color: #F7F6F7;
+  padding: 1.5em;
+  border-radius: 10px;
+}
