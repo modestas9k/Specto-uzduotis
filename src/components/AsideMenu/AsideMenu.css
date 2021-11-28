@@ -1,0 +1,24 @@
+/* Asside */
+
+.asside__container {
+    width: 275px;
+}
+.asside__nav {
+    padding-top: 25px;
+    border-top: 1px solid #eee;
+}
+.asside__nav h3 {
+    margin: 0;
+    padding: 0px 20px;
+}
+.asside__nav ul {
+    list-style: none;
+    padding: 0;
+}
+.asside__nav li {
+    padding: 10px 20px;
+}
+.active-list-item {
+    background-color: #F7F6F7;
+    font-weight: bold;
+}
