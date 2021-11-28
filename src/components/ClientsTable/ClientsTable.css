@@ -1,0 +1,34 @@
+.clients-table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    overflow: auto;
+  }
+  .clients-table tr {
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+  
+  .clients-table tr th, .clients-table tr td {
+    display: flex;
+    flex: 1;
+    padding: .5em;
+    justify-content: center;
+  }
+  .clients-table th {
+    font-size: 1rem;
+  }
+  .clients-table td {
+    font-size: 0.75rem;
+  }
+  .client-table__client-row {
+    border-radius: 50px;
+  }
+  .client-table__client-row:hover {
+    background-color: #465fcc6b;
+  }
+  .client-table__client-row:active {
+    background-color: #0F1D5B;
+    color: rgb(255, 255, 255);
+  }
+  
