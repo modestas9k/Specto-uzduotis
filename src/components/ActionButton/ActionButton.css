@@ -12,8 +12,9 @@
   }
   .action-btn:hover {
     background-color: #E8E8E8;
+    cursor: pointer;
   }
-  button:hover:after { 
+  .action-btn:hover:after { 
     content: attr(tooltip); 
     position: absolute;
     top: 0;
