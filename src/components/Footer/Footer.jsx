@@ -1,6 +1,6 @@
 // import React from 'react';
 import './Footer.css';
-import { ReactComponent as LogoIcon } from '../../assets/logo.svg';
+import { ReactComponent as LogoIcon } from '../../assets/logoIcon.svg';
 import { ReactComponent as WorldIcon } from '../../assets/world.svg';
 
 export default function Footer() {
