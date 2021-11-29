@@ -1,6 +1,6 @@
 import './Search.css';
 import { ReactComponent as SearchIcon } from '../../assets/search.svg';
-import { ReactComponent as Clear } from '../../assets/clearSearch.svg';
+import { ReactComponent as ClearIcon } from '../../assets/clearSearch.svg';
 
 export default function Search({ searchInputData }) {
     return (
@@ -13,7 +13,7 @@ export default function Search({ searchInputData }) {
                 onChange={(e) => searchInputData(e.target.value)}
             />
             <button>
-                <Clear className="search__clear" /> Valyti
+                <ClearIcon className="search__clear" /> Valyti
             </button>
         </label>
     );
